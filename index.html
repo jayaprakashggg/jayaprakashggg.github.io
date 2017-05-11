@@ -9,44 +9,34 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-	<link rel="shortcut icon" type="image/png" href="img/icon.png">
-	
+    <link rel="shortcut icon" type="image/png" href="img/profile/icon.png">
+
     <title>Jayaprakash Portfolio</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Theme CSS -->
+    <link href="css/prakash.css" rel="stylesheet">
 
 </head>
 
-<body id="page-top">
+<body id="page-top" class="index">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">Home</a>
             </div>
@@ -54,14 +44,20 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Knowledge</a>
+                        <a class="page-scroll" href="#skills">Skills</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#timeline">Timeline</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -73,16 +69,17 @@
         <!-- /.container-fluid -->
     </nav>
 
+    <!-- Header -->
     <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-			<img src="img/my.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
-			<h2></h2>
+        <div class="container">
+            <div class="intro-text">
+                <img src="img/profile/prakash.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                <h2></h2>
                 <h1>Hi! I am Jayaprakash</h1>
                 <hr>
-				<h3>Mobile Application developer | UI/UX developer | & lot more</h3>
-				<span class="label label-default">Android SDK</span>
-				<span class="label label-primary">Java</span>
+                <h3>Mobile Application developer | UI/UX developer | & lot more</h3>
+                <span class="label label-default">Android SDK</span>
+                <span class="label label-primary">Java</span>
                 <span class="label label-info" background-color="yellow">Appcelerator Studio(Cross Platform)</span>
                 <span class="label label-primary">JavaScript</span>
                 <span class="label label-success">HTML/CSS</span>
@@ -90,217 +87,831 @@
                 <span class="label label-warning">& lot more</span>
                 <hr>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+
             </div>
         </div>
     </header>
 
-    <section class="bg-primary" id="about">
+
+    <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <hr class="light">
-                    <p class="text-faded">My name is Jayaprakash G and I am a Mobile Application developer, Web application developer, Web designer and Java application developer. 
-					I have been in the field for nearly 2 years, and have been loving every minute of it. I am a designer, developer, and overall thinker.</p>
-                    <a href="https://drive.google.com/file/d/0B-MgxFFRM8IfS2xBQUZ6Y2c4WnM/view?usp=sharing" class="btn btn-default btn-xl">Get My Resume</a>
+                    <h2 class="section-heading">About me</h2>
+
+                    <hr>
+
+                    <p>I'm a Mobile Application developer in the field of Android, Backend server application development in the field of NodeJs, Web application developer, Web designer and Java application developer. I have been in the field for 2+ years, and have been loving every minute of it. I am a designer, developer, and overall thinker.</p>
+
+                    <br><br>
+
+                    <img src="img/profile/ic_college.png" class="fa fa-4x wow bounceIn text-primary" alt="">
+                    <h4 class="service-heading">EDUCATION</h4>
+                    <p class="text-muted"><b>B.Tech in Information Technology</b><br/>SNS college of technology, Coimbatore.</p>
+                    <p><b>2010 - 2014</b></p>
+
+                    <br><br>
+
+                    <img src="img/profile/ic_work.png" class="fa fa-4x wow bounceIn text-primary" alt="">
+                    <h4 class="service-heading">WORK</h4>
+                    <p class="text-muted"><b>Android Application Developer</b><br/>Analog and Digital Labs, Coimbatore.</p>
+                    <p><b>2015 - present</b></p>
+
+                    <br><br>
+
+                    <a href="https://drive.google.com/file/d/0B-MgxFFRM8IfRnZjQ3JWdEUtRjg/view?usp=sharing" class="btn btn-primary btn-xl page-scroll">Get My Resume</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services">
+
+    <section class="bg-light-gray" id="skills">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Knowledge</h2>
-                    <hr class="primary">
+                    <h2 class="section-heading">Skills</h2>
+                    <h3 class="section-subheading text-muted">Responsive Front-end & Back-end application development</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/profile/icon_coding.png" class="fa fa-4x wow bounceIn text-primary" alt="">
+                    <h4 class="service-heading">Programming</h4>
+                    <p class="text-muted">Java, JavaScript, Nodejs, Html/CSS/XML</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/profile/icon_ide.png" class="fa fa-4x wow bounceIn text-primary" alt="">
+                    <h4 class="service-heading">IDE</h4>
+                    <p class="text-muted">Android Studio, Eclipse, Visual Studio, Sublime Text, Appcelerator Studio(Cross Platform)</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/profile/icon_db.png" class="fa fa-4x wow bounceIn text-primary" alt="">
+                    <h4 class="service-heading">Database</h4>
+                    <p class="text-muted">MySQL, SQLite</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/profile/icon_cloud.png" class="fa fa-4x wow bounceIn text-primary" alt="">
+                    <h4 class="service-heading">Cloud & Application tools</h4>
+                    <p class="text-muted">Google Cloud Platform, Open Shift Cloud, MS Office, Inkscape, Photoshop</p>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="portfolio">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-						<img src="img/android.jpg" class="fa fa-4x wow bounceIn text-primary" alt="">
-                       <!-- <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>-->
-                        <h3>Mobile App Development</h3>
-                        <p class="text-muted">Android, iPhone, Web Application, Appcelerator Studio</p>
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Android Mobile Application</h3>
+                </div>
+
+                <div id = "sammukart" class="content-section-a">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6 portfolio-item">
+                                            <a href="#sammukartModal" class="portfolio-link" data-toggle="modal">
+                                                <div class="portfolio-hover">
+                                                    <div class="portfolio-hover-content">
+                                                        <i class="fa fa-plus fa-3x"></i>
+                                                    </div>
+                                                </div>
+                                                <img src="img/portfolio/ic_clear.png" class="img-responsive" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-pull-6 col-sm-6 text-center">
+                                <div class="timeline-heading">
+                                    <h4 class="text-cyan">Clear Poster (Ongoing project)</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Clear Poster is a online ads purchasing and booking application. This application is use to purchase and book Media ads or Outdoor ads. Clear Poster involves Cart, purchasing, booking, Account, Wallet, Offer, rating and Tracking order details. This application to find nearby ads on Map view.</p>
+                                    <br>
+                                    <p><b>Worked with front end application developed for Android and back end application developed for NodeJs.</b></p>
+                                </div>
+                                <br>
+                                <span class="label label-primary">Java</span>
+                                <span class="label label-default">Android SDK</span>
+                                <span class="label label-success">UI/UX</span>
+                                <span class="label label-warning">JavaScript</span>
+                                <span class="label label-info">Nodejs</span>
+                                <span class="label label-primary">Firebase Cloud Massaging</span>
+                                <span class="label label-warning">Google Cloud Platform</span>
+                                <span class="label label-success">Rest API</span>
+                                <span class="label label-info">JSON</span>
+                                <span class="label label-primary">GPS Tracking</span>
+                                <span class="label label-warning">& lot more</span>
+                                <br><br>
+                                <br>
+                                <span> <a href="#sammukart"> <button class="btn btn-primary page-scroll" type="submit"><i class="fa" aria-hidden="true"></i>Find Out More</button> </a> </span> 
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-					<img src="img/web.jpg" class="fa fa-4x wow bounceIn text-primary" alt="">
-                       <!-- <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>-->
-                        <h3>Web App Development</h3>
-                        <p class="text-muted">HTML/CSS/JS, MySql, Node JS, PHP</p>
+
+                <br><br><hr class="darkk"><br><br>
+
+                <div id = "binary" class="content-section-a">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6 portfolio-item">
+                                            <a href="#binaryModal" class="portfolio-link" data-toggle="modal">
+                                                <div class="portfolio-hover">
+                                                    <div class="portfolio-hover-content">
+                                                        <i class="fa fa-plus fa-3x"></i>
+                                                    </div>
+                                                </div>
+                                                <img src="img/portfolio/ic_binary.png" class="img-responsive" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-pull-6 col-sm-6 text-center">
+                                <div class="timeline-heading">
+                                    <h4 class="text-cyan">Binary Service India</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Binary Service India is a online service booking application. This application involves Booking, Account, Wallet, Offer and Tracking Service. Binary Service India is use to booking online service for mobiles, laptops, desktops and etc.</p>
+                                    <br>
+                                    <p><b>Worked with front end application developed for Android and back end application developed for NodeJs.</b></p>
+                                </div>
+                                <br>
+                                <span class="label label-primary">Java</span>
+                                <span class="label label-default">Android SDK</span>
+                                <span class="label label-success">UI/UX</span>
+                                <span class="label label-warning">JavaScript</span>
+                                <span class="label label-info">Nodejs</span>
+                                <span class="label label-primary">Firebase Cloud Massaging</span>
+                                <span class="label label-warning">Google Cloud Platform</span>
+                                <span class="label label-default">SMS Gateway</span>
+                                <span class="label label-success">Rest API</span>
+                                <span class="label label-info">JSON</span>
+                                <span class="label label-primary">GPS Tracking</span>
+                                <span class="label label-warning">& lot more</span>
+                                <br><br>
+                                <p class="text-muted">Available on<span> Play Store</span></p>
+                                <span> <a href="https://play.google.com/store/apps/details?id=com.prakash.binaryservice&hl=en"> <button class="btn btn-cyan" type="submit"><i class="fa fa-android" aria-hidden="true"></i> Play Store</button> </a> </span>  
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-					<img src="img/java.jpg" class="fa fa-4x wow bounceIn text-primary" alt="">
-                        <!--<i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>-->
-                        <h3>Java</h3>
-                        <p class="text-muted">Java Application</p>
+
+                <br><br><hr class="darkk"><br><br>
+
+                <div id = "hairstyle" class="content-section-a">
+                    <div class="container">
+                        <div class="row text-center">
+
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6 portfolio-item">
+                                            <a href="#hairstyleModal" class="portfolio-link" data-toggle="modal">
+                                                <div class="portfolio-hover">
+                                                    <div class="portfolio-hover-content">
+                                                        <i class="fa fa-plus fa-3x"></i>
+                                                    </div>
+                                                </div>
+                                                <img src="img/portfolio/ic_hair.png" class="img-responsive" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-pull-6 col-sm-6 text-center">
+                                <div class="timeline-heading">
+                                    <h4 class="text-cyan">Book My Hairstylist Book Salon</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Book My Hairstylist Book Salon is online salon booking application. This application involves offers within salons, locate nearby salon, compare salons based on all the features/offers/distance/price/peer rating, booking, account, timing and offers</p>
+                                    <br>
+                                    <p><b>Worked with front end application developed for Android.</b></p>
+                                </div>
+                                <br>
+                                <span class="label label-primary">Java</span>
+                                <span class="label label-default">Android SDK</span>
+                                <span class="label label-success">UI/UX</span>
+                                <span class="label label-primary">Firebase Cloud Massaging</span>
+                                <span class="label label-default">SMS Gateway</span>
+                                <span class="label label-primary">Payment Gateway</span>
+                                <span class="label label-warning">Google Maps</span>
+                                <span class="label label-success">Rest API</span>
+                                <span class="label label-info">JSON</span>
+                                <span class="label label-primary">GPS Tracking</span>
+                                <span class="label label-warning">& lot more</span>
+                                <br><br>
+                                <p class="text-muted">Available on<span> Play Store</span></p>
+                                <span> <a href="https://play.google.com/store/apps/details?id=com.tt.bmhs"> <button class="btn btn-cyan" type="submit"><i class="fa fa-android" aria-hidden="true"></i> Play Store</button> </a> </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-					<img src="img/traking.jpg" class="fa fa-4x wow bounceIn text-primary" alt="">
-                        <!--<i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>-->
-                        <h3>Tracking Applications</h3>
-                        <p class="text-muted">Develop real-time tracking apps</p>
+
+                <br><br><hr class="darkk"><br><br>
+
+                <div id = "droidhub" class="content-section-a">
+                    <div class="container">
+                        <div class="row text-center">
+
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6 portfolio-item">
+                                            <a href="#droidhubModal" class="portfolio-link" data-toggle="modal">
+                                                <div class="portfolio-hover">
+                                                    <div class="portfolio-hover-content">
+                                                        <i class="fa fa-plus fa-3x"></i>
+                                                    </div>
+                                                </div>
+                                                <img src="img/portfolio/ic_droidhub.png" class="img-responsive" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-pull-6 col-sm-6 text-center">
+                                <div class="timeline-heading">
+                                    <h4 class="text-cyan">Droid Hub</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Droid Hub is a community network for android enthusiasts, developers and designers, aimed to bring together the best of android experiences. This application involves Latest android news and updates, Posts questions and share knowledge, Multi-Language support, Upload and Download roms updates.</p>
+                                    <br>
+                                    <p><b>Worked with front end application developed for Android.</b></p>
+                                </div>
+                                <br>
+                                <span class="label label-primary">Java</span>
+                                <span class="label label-default">Android SDK</span>
+                                <span class="label label-success">UI/UX</span>
+                                <span class="label label-primary">Firebase Cloud Massaging</span>
+                                <span class="label label-warning">Web Service</span>
+                                <span class="label label-success">Rest API</span>
+                                <span class="label label-info">JSON</span>
+                                <span class="label label-warning">& lot more</span>
+                                <br><br>
+                                <p class="text-muted">Available on<span> Play Store</span></p>
+                                <span> <a href="https://play.google.com/store/apps/details?id=com.forums.droidhub&hl=en"> <button class="btn btn-cyan" type="submit"><i class="fa fa-android" aria-hidden="true"></i> Play Store</button> </a> </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><hr class="darkk"><br><br>
+
+                <div id = "atlas" class="content-section-a">
+                    <div class="container">
+                        <div class="row text-center">
+
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6 portfolio-item">
+                                            <a href="#atlasModal" class="portfolio-link" data-toggle="modal">
+                                                <div class="portfolio-hover">
+                                                    <div class="portfolio-hover-content">
+                                                        <i class="fa fa-plus fa-3x"></i>
+                                                    </div>
+                                                </div>
+                                                <img src="img/portfolio/ic_atlas.png" class="img-responsive" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-pull-6 col-sm-6 text-center">
+                                <div class="timeline-heading">
+                                    <h4 class="text-cyan">Atlas and Emergency Call</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Atlas and Emergency Call application is using to configure the road traffic signal and emergency way. This application involves configure the road traffic signal timing, way details, manual and automatic time set. Emergency call for control the signal using web socket communication and location tracker.</p>
+                                    <br>
+                                    <p><b>Worked with front end application developed for Android.</b></p>
+                                </div>
+                                <br>
+                                <span class="label label-primary">Java</span>
+                                <span class="label label-default">Android SDK</span>
+                                <span class="label label-success">UI/UX</span>
+                                <span class="label label-info">Web Socket</span>
+                                <span class="label label-primary">Firebase Cloud Massaging</span>
+                                <span class="label label-warning">Web Service</span>
+                                <span class="label label-success">Rest API</span>
+                                <span class="label label-default">Google Maps</span>
+                                <span class="label label-info">JSON</span>
+                                <span class="label label-warning">& lot more</span>
+                                <br><br>
+                                <span> <a href="#atlas"> <button class="btn btn-primary page-scroll" type="submit"><i class="fa" aria-hidden="true"></i>Find Out More</button> </a> </span> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><hr class="darkk"><br><br>
+
+                <div id = "fifi" class="content-section-a">
+                    <div class="container">
+                        <div class="row text-center">
+
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6 portfolio-item">
+                                            <a href="#fifiModal" class="portfolio-link" data-toggle="modal">
+                                                <div class="portfolio-hover">
+                                                    <div class="portfolio-hover-content">
+                                                        <i class="fa fa-plus fa-3x"></i>
+                                                    </div>
+                                                </div>
+                                                <img src="img/portfolio/ic_fifi.png" class="img-responsive" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-pull-6 col-sm-6 text-center">
+                                <div class="timeline-heading">
+                                    <h4 class="text-cyan">FiFi puzzle game - Eye Test</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">FIFI Puzzle Game - Eye Test application is like puzzle game and which helps to test eye sight. Application involves need to spot and select the different fruit from other tiles. This game provides two modes. One is classic mode for get no nagative score in each mistake. Another one is Pro mode for get nagative score in each mistake.</p>
+                                    <br>
+                                    <p><b>Worked with front end application developed for Android.</b></p>
+                                </div>
+                                <br>
+                                <span class="label label-primary">Java</span>
+                                <span class="label label-default">Android SDK</span>
+                                <span class="label label-success">UI/UX</span>
+                                <span class="label label-warning">& lot more</span>
+                                <br><br>
+                                <p class="text-muted">Available on<span> Play Store</span></p>
+                                <span> <a href="https://play.google.com/store/apps/details?id=com.and.fifi.fifi"> <button class="btn btn-cyan" type="submit"><i class="fa fa-android" aria-hidden="true"></i> Play Store</button> </a> </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><hr class="darkk"><br><br>
+
+                <div id = "violet" class="content-section-a">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6 portfolio-item">
+                                            <a href="#violetModal" class="portfolio-link" data-toggle="modal">
+                                                <div class="portfolio-hover">
+                                                    <div class="portfolio-hover-content">
+                                                        <i class="fa fa-plus fa-3x"></i>
+                                                    </div>
+                                                </div>
+                                                <img src="img/portfolio/ic_violet.png" class="img-responsive" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-pull-6 col-sm-6 text-center">
+                                <div class="timeline-heading">
+                                    <h4 class="text-cyan">VIOLET and VIOLET Tracking</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Android application interfaced with portable Bluetooth printer and card reader, a distributed client with centralised server to spot challan traffic violators and to keep track of vehicle theft with RTO database integrated. Violet tracking application is using to track particular user or all user location in map view.</p>
+                                    <br>
+                                    <p><b>Worked with front end application developed for Android and back end application developed for NodeJs.</b></p>
+                                </div>
+                                <br>
+                                <span class="label label-primary">Java</span>
+                                <span class="label label-default">Android SDK</span>
+                                <span class="label label-success">UI/UX</span>
+                                <span class="label label-warning">JavaScript</span>
+                                <span class="label label-info">Nodejs</span>
+                                <span class="label label-default">Google Maps</span>
+                                <span class="label label-primary">Firebase Cloud Massaging</span>
+                                <span class="label label-info">Web Socket</span>
+                                <span class="label label-success">Rest API</span>
+                                <span class="label label-primary">GPS Tracking</span>
+                                <span class="label label-info">JSON</span>
+                                <span class="label label-warning">& lot more</span>
+                                <br><br>
+                                <span> <a href="#violet"> <button class="btn btn-primary page-scroll" type="submit"><i class="fa" aria-hidden="true"></i>Find Out More</button> </a> </span> 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter col-lg-8 col-lg-offset-2 text-center">
-				<h2 style="color:#FFFFFF" class="section-heading">My Apps</h2>
-                <hr class="light">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Mobile Application
-                                </div>
-                                <div class="project-name">
-                                    FIFI Puzzle Game
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Mobile Application
-                                </div>
-                                <div class="project-name">
-                                    E-Challan
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Mobile Application
-                                </div>
-                                <div class="project-name">
-                                    Easy Vehicle
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Mobile Application
-                                </div>
-                                <div class="project-name">
-                                    Parking System
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>              
-               
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/7.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Mobile Application
-                                </div>
-                                <div class="project-name">
-                                    AND Labs
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/9.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Mobile Application
-                                </div>
-                                <div class="project-name">
-                                    Power Ad's
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at FIFI Puzzle Game!</h2>
-                <a href="https://play.google.com/store/apps/details?id=com.and.fifi.fifi" class="btn btn-default btn-xl wow tada">Download Now!</a>
-            </div>
-        </div>
-    </aside>
-
-    <section id="contact">
+    <section id="timeline" class="bg-light-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                   <!-- <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>-->
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Project Timeline</h2>
+                    <h3 class="section-subheading text-muted">Project timeline and little description.</h3>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>+918870852989</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">jayaprakashggg@gmail.com</a></p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/profile/logo_violet.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>VIOLET & VIOLET TRACKING</h4>
+                                    <h5 class="subheading">Jan’15 – May’15</h5>
+                                    <p>Android Application</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <a href="#violetModal" class="text-primary portfolio-link" data-toggle="modal">Description ...</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/profile/logo_fifi.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>FIFI Puzzle Game</h4>
+                                    <h5 class="subheading">June’15 – July’15</h5>
+                                    <p>Android Application</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <a href="#fifiModal" class="text-primary portfolio-link" data-toggle="modal">Description ...</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/profile/logo_atlas.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Atlas and Emergency Call</h4>
+                                    <h5 class="subheading">Aug’15 – Nov’15</h5>
+                                    <p>Android Application</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <a href="#atlasModal" class="text-primary portfolio-link" data-toggle="modal">Description ...</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/profile/logo_droidhub.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Droid Hub</h4>
+                                    <h5 class="subheading">Dec’15 – March’16</h5>
+                                    <p>Android Application</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <a href="#droidhubModal" class="text-primary portfolio-link" data-toggle="modal">Description ...</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li >
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/profile/logo_hairstyle.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Book My Hairstylist Book Salon</h4>
+                                    <h5 class="subheading">April’16 – Sep’16</h5>
+                                    <p>Android Application</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <a href="#hairstyleModal" class="text-primary portfolio-link" data-toggle="modal">Description ...</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/profile/logo_binary.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Binary Service India</h4>
+                                    <h5 class="subheading">Oct’16 – Jan'17</h5>
+                                    <p>Android Application</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <a href="#binaryModal" class="text-primary portfolio-link" data-toggle="modal">Description ...</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li >
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/profile/logo_sammukart.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Clear Poster (Ongoing project)</h4>
+                                    <h5 class="subheading">Feb’17 – Present</h5>
+                                    <p>Android Application</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <a href="#sammukartModal" class="text-primary portfolio-link" data-toggle="modal">Description ...</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li >
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/profile/logo_story.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
+
+    <footer id = "contact" class="text-center bg-black">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3 class="text-primary">Contact</h3>
+                        <p class="text-white">Phone : +918870852989</p>
+                        <p class="text-white">Email : jayaprakashggg@gmail.com</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3 class="text-primary">Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3 class="text-primary">Location</h3>
+                        <p class="text-white">Coimbatore,</p>
+                        <p class="text-white">Tamilnadu,India.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>  
+
+    <div class="portfolio-modal modal fade" id="sammukartModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Clear Poster (Ongoing project)</h2>
+                                <p class="item-intro text-muted">Android Mobile Application</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ic_clear.png" alt="">
+                                <p>Clear Poster is a online ads purchasing and booking application. This application is use to purchase and book Media ads or Outdoor ads. Clear Poster involves Cart, purchasing, booking, Account, Wallet, Offer, rating and Tracking order details. This application to find nearby ads on Map view. </p>
+                                <p>Clear Poster application is ongoing project not available on play store.</p>
+
+                                <a href="#" class="btn btn-cyan page-scroll">Find Out More Screenshot</a>
+                                <br><br>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="binaryModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Binary Service India</h2>
+                                <p class="item-intro text-muted">Android Mobile Application</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ic_binary.png" alt="">
+                                <p>Binary Service India is a online service booking application. This application involves Booking, Account, Wallet, Offer and Tracking Service. Binary Service India is use to booking online service for mobiles, laptops, desktops and etc.</p>
+                                <p>Binary Service India application is available on play store.</p>
+
+                                <span> <a href="https://play.google.com/store/apps/details?id=com.prakash.binaryservice&hl=en"> <button class="btn btn-cyan" type="submit"><i class="fa fa-android" aria-hidden="true"></i> Play Store</button> </a> </span> 
+
+                                <br><br>
+
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="hairstyleModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Book My Hairstylist Book Salon</h2>
+                                <p class="item-intro text-muted">Android Mobile Application</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ic_hair.png" alt="">
+                                <p>Book My Hairstylist Book Salon is online salon booking application. This application involves offers within salons, locate nearby salon, compare salons based on all the features/offers/distance/price/peer rating, booking, account, timing and offers.</p>
+                                <p>Book My Hairstylist Book Salon application is available on play store.</p>
+
+                                <span> <a href="https://play.google.com/store/apps/details?id=com.tt.bmhs"> <button class="btn btn-cyan" type="submit"><i class="fa fa-android" aria-hidden="true"></i> Play Store</button> </a> </span> 
+
+                                <br><br>
+
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="droidhubModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Droid Hub</h2>
+                                <p class="item-intro text-muted">Android Mobile Application</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ic_droidhub.png" alt="">
+                                <p>Droid Hub is a community network for android enthusiasts, developers and designers, aimed to bring together the best of android experiences. This application involves Latest android news and updates, Posts questions and share knowledge, Multi-Language support, Upload and Download roms updates.</p>
+                                <p>Droid Hub application is available on play store.</p>
+
+                                <span> <a href="https://play.google.com/store/apps/details?id=com.forums.droidhub&hl=en"> <button class="btn btn-cyan" type="submit"><i class="fa fa-android" aria-hidden="true"></i> Play Store</button> </a> </span> 
+
+                                <br><br>
+
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="atlasModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Atlas and Emergency Call</h2>
+                                <p class="item-intro text-muted">Android Mobile Application</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ic_atlas.png" alt="">
+                                <p>Atlas and Emergency Call application is using to configure the road traffic signal and emergency way. This application involves configure the road traffic signal timing, way details, manual and automatic time set. Emergency call for control the signal using web socket communication and location tracker.</p>
+                                <p>Atlas and Emergency Call is available on play store.</p>
+
+                                <a href="#" class="btn btn-cyan page-scroll">Find Out More Screenshot</a>
+                                <br><br>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="fifiModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>FIFI Puzzle Game - Eye Test</h2>
+                                <p class="item-intro text-muted">Android Mobile Application</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ic_fifi.png" alt="">
+                                <p>FIFI Puzzle Game - Eye Test application is like puzzle game and which helps to test eye sight. Application involves need to spot and select the different fruit from other tiles. This game provides two modes. One is classic mode for get no nagative score in each mistake. Another one is Pro mode for get nagative score in each mistake.</p>
+                                <p>FIFI Puzzle Game - Eye Test application is available on play store.</p>
+
+                                <span> <a href="https://play.google.com/store/apps/details?id=com.and.fifi.fifi"> <button class="btn btn-cyan" type="submit"><i class="fa fa-android" aria-hidden="true"></i> Play Store</button> </a> </span> 
+
+                                <br><br>
+
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="portfolio-modal modal fade" id="violetModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>VIOLET and VIOLET Tracking</h2>
+                                <p class="item-intro text-muted">Android Mobile Application</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ic_violet.png" alt="">
+                                <p>Android application interfaced with portable Bluetooth printer and card reader, a distributed client with centralised server to spot challan traffic violators and to keep track of vehicle theft with RTO database integrated. Violet tracking application is using to track particular user or all user location in map view.</p>
+
+                                <a href="#" class="btn btn-cyan page-scroll">Find Out More Screenshot</a>
+                                <br><br>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
-</body>
+    <!-- Theme JavaScript -->
+    <script src="js/prakash.min.js"></script>
 
-</html>
+</body>   
+</html> 
