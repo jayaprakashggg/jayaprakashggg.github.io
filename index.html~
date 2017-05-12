@@ -101,7 +101,7 @@
 
                     <hr>
 
-                    <p>I'm a Mobile Application developer in the field of Android, Backend server application development in the field of NodeJs, Web application developer, Web designer and Java application developer. I have been in the field for 2+ years, and have been loving every minute of it. I am a designer, developer, and overall thinker.</p>
+                    <p>I'm a Mobile Application developer in the field of Android, Backend server application development in the field of NodeJs, Web application developer, Web designer and Java application developer. I have been in the field for 3 years, and have been loving every minute of it. I am a designer, developer, and overall thinker.</p>
 
                     <br><br>
 
@@ -115,11 +115,11 @@
                     <img src="img/profile/ic_work.png" class="fa fa-4x wow bounceIn text-primary" alt="">
                     <h4 class="service-heading">WORK</h4>
                     <p class="text-muted"><b>Android Application Developer</b><br/>Analog and Digital Labs, Coimbatore.</p>
-                    <p><b>2015 - present</b></p>
+                    <p><b>2014 - present</b></p>
 
                     <br><br>
 
-                    <a href="https://drive.google.com/open?id=0B-MgxFFRM8IfcDdqTHk0S1RjbzQ" class="btn btn-primary btn-xl page-scroll">Get My Resume</a>
+                    <a href="https://drive.google.com/file/d/0B-MgxFFRM8IfMWJjWTNuODJYVVU/view?usp=sharing" class="btn btn-primary btn-xl page-scroll">Get My Resume</a>
                 </div>
             </div>
         </div>
@@ -191,7 +191,7 @@
                                     <h4 class="text-cyan">Clear Poster (Ongoing project)</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Clear Poster is a online ads purchasing and booking application. This application is use to purchase and book Media ads or Outdoor ads. Clear Poster involves Cart, purchasing, booking, Account, Wallet, Offer, rating and Tracking order details. This application to find nearby ads on Map view.</p>
+                                    <p class="text-muted">Clear Poster is an online ads purchasing and booking application. This application is use to purchase and book Media ads or Outdoor ads. Clear Poster involves Cart, purchasing, booking, Account, Wallet, Offer, rating and Tracking order details. This application to find nearby ads on Map view.</p>
                                     <br>
                                     <p><b>Worked with front end application developed for Android and back end application developed for NodeJs.</b></p>
                                 </div>
@@ -209,7 +209,7 @@
                                 <span class="label label-warning">& lot more</span>
                                 <br><br>
                                 <br>
-                                <span> <a href="#sammukart"> <button class="btn btn-primary page-scroll" type="submit"><i class="fa" aria-hidden="true"></i>Find Out More</button> </a> </span> 
+                                <span> <a href="https://clearposter.github.io/"> <button class="btn btn-primary page-scroll" type="submit"><i class="fa" aria-hidden="true"></i>Find Out More</button> </a> </span> 
                             </div>
                         </div>
                     </div>
@@ -408,7 +408,7 @@
                                 <span class="label label-info">JSON</span>
                                 <span class="label label-warning">& lot more</span>
                                 <br><br>
-                                <span> <a href="#atlas"> <button class="btn btn-primary page-scroll" type="submit"><i class="fa" aria-hidden="true"></i>Find Out More</button> </a> </span> 
+                                <span> <a href="https://atlasemergencycall.github.io/"> <button class="btn btn-primary page-scroll" type="submit"><i class="fa" aria-hidden="true"></i>Find Out More</button> </a> </span> 
                             </div>
                         </div>
                     </div>
@@ -502,7 +502,7 @@
                                 <span class="label label-info">JSON</span>
                                 <span class="label label-warning">& lot more</span>
                                 <br><br>
-                                <span> <a href="#violet"> <button class="btn btn-primary page-scroll" type="submit"><i class="fa" aria-hidden="true"></i>Find Out More</button> </a> </span> 
+                                <span> <a href="https://violetandviolettracking.github.io/"> <button class="btn btn-primary page-scroll" type="submit"><i class="fa" aria-hidden="true"></i>Find Out More</button> </a> </span> 
                             </div>
                         </div>
                     </div>
@@ -529,7 +529,7 @@
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>VIOLET & VIOLET TRACKING</h4>
-                                    <h5 class="subheading">Jan’15 – May’15</h5>
+                                    <h5 class="subheading">July’14 – May’15</h5>
                                     <p>Android Application</p>
                                 </div>
                                 <div class="timeline-body">
@@ -650,21 +650,26 @@
                     <div class="footer-col col-md-4">
                         <h3 class="text-primary">Around the Web</h3>
                         <ul class="list-inline">
+                            
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://github.com/jayaprakashggg" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a href="http://stackoverflow.com/users/6344770/jayaprakash-g" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/jayaprakash-g-65ba4489/" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/jaya.prakash.3386585" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                                <a href="https://plus.google.com/110079041163107480718" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
                             </li>
+                            <li>
+                                <a href="https://twitter.com/jayaprakashggg" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
